@@ -21,13 +21,6 @@ int main(void){
 		catch (std::exception &e) {
 			std::cerr << e.what() << std::endl;
 		}
-
-		try {
-			easyfind(test_vect, 44);
-		}
-		catch {
-			std::cerr << e.what() << std::endl;
-		}
 		
 		return 0;
 	}
